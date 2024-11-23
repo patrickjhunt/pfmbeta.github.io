@@ -1,194 +1,69 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face {
-	font-family:"Armada Bold";
+	font-family: "Armada Bold";
 }
-
-@media (max-width: 2600px){
 	
-	html {
+html {
 	font-family: "Armada Bold";
 	font-size: 16px;
+}
 
-	}
+body {
+	max-width: 100%;
+	max-height: auto;
+	background-color: rgba(0,0,0,1.00);
+	overflow-x: hidden;
+	background-image: url("pfmbetabackground.png");
+}
 
-	body {
-		max-width: 100%;
-		background-color: rgba(0,0,0,1.00);
-	}
-
+@media (min-width: 300px) {
 	header {
 		max-width: 100%;
+		display: flex;
+    	justify-content: center;
+    	height: auto;
+    	margin: 0;
+		text-align: center;
 	}
 
 	h1 {
-		font-size: 3em;
-		text-align: center;
+		font-size: 2.5em;
 	}
 
 	nav {
 		width: 100%;
-		text-align: center;
 		font-family: "Armada Bold";
-		padding-top: 2em;
 	}
-	header nav ul {
-		list-style: none;
-		align-items: center;
-	}
-
-	ul {
-		white-space: nowrap;
-	}
-
-	nav ul li {
-		color: rgba(252,249,249,1.00);
-		display: inline-block;
-		margin-right: 10em;
-		padding-left: 12em;
-	}
-	ul li a {
-		color: #FFFFFF;
-		text-decoration: none;
-		font-size: 1.5em;
-	}
-	ul li:hover a {
-		color: #FF0000;
-	}
-
-	.container {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: rgba(0,0,0,0.00);
-	}
-
-	.title {
-		align-items: center;
-		color: rgba(255,255,255,1.00);
-	}
-}
-
-@media (max-width: 400px) {
 	
-	html {
-	font-family: "Armada Bold";
-	font-size: 16px;
-
-	}
-
-	body {
-		max-width: 100%;
-		background-color: rgba(0,0,0,1.00);
-	}
-
-	header {
-		max-width: 100%;
-	}
-
-	h1 {
-		font-size: 3em;
-		text-align: center;
-	}
-
-	nav {
-		width: 100%;
-		text-align: center;
-		font-family: "Armada Bold";
-		padding-top: 1em;
-	}
-	header nav ul {
-		list-style: none;
-		align-items: center;
-	}
-
 	ul {
-	
+		display: flex; /* Arrange list items in a row */
+      	list-style: none; /* Remove default bullet points */
+      	padding: 0;
+      	margin: 0;
 	}
 
-	nav ul li {
+	ul li {
 		color: rgba(252,249,249,1.00);
-		display: inline-block;
 		margin-right: 1em;
+		margin-left: 1.6em;
 		float: left;
-		padding-left: 0.7em;
+		
 	}
+	
 	ul li a {
 		color: #FFFFFF;
 		text-decoration: none;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	ul li:hover a {
 		color: #FF0000;
 	}
-
-	.container {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		background-color: rgba(0,0,0,0.00);
-	}
-
-	.title {
-		align-items: center;
-		color: rgba(255,255,255,1.00);
-	}
-
-}
-@media (max-width: 1375px) {
 	
-	html {
-	font-family: "Armada Bold";
-	font-size: 16px;
-	}
-
-	body {
-		max-width: 100%;
-		background-color: rgba(0,0,0,1.00);
-	}
-
-	header {
-		max-width: 100%;
-	}
-
-	h1 {
-		font-size: 3em;
-		text-align: center;
-	}
-
-	nav {
-		width: 100%;
-		text-align: center;
-		font-family: "Armada Bold";
-		padding-top: 1em;
-	}
-	
-	header nav ul {
-		list-style: none;
-		align-items: center;
-	}
-
-	ul {
+	p {
 		
 	}
 
-	nav ul li {
-		color: rgba(252,249,249,1.00);
-		display: inline-block;
-		margin-right: 1em;
-		float: left;
-		padding-left: 9.5em;
-	}
-	
-	ul li a {
-		color: #FFFFFF;
-		text-decoration: none;
-		font-size: 16px;
-	}
-	ul li:hover a {
-		color: #FF0000;
-	}
-
 	.container {
 		width: 100%;
 		margin-left: auto;
@@ -197,8 +72,19 @@
 	}
 
 	.title {
-		align-items: center;
 		color: rgba(255,255,255,1.00);
 	}
+	
+	.about {
+		width: 100%;
+		height: auto;
+		background-color: rgba(0,0,0,1.00);
 
+		margin-top: 7em;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+
+	}
 }
+	
+
