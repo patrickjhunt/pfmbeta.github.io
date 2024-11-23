@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:"Armada Bold";
+}
+
+@media (max-width: 2600px){
+	
+	html {
+	font-family: "Armada Bold";
+	font-size: 16px;
+
+	}
+
+	body {
+		max-width: 100%;
+		background-color: rgba(0,0,0,1.00);
+	}
+
+	header {
+		max-width: 100%;
+	}
+
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		font-family: "Armada Bold";
+		padding-top: 2em;
+	}
+	header nav ul {
+		list-style: none;
+		align-items: center;
+	}
+
+	ul {
+		white-space: nowrap;
+	}
+
+	nav ul li {
+		color: rgba(252,249,249,1.00);
+		display: inline-block;
+		margin-right: 10em;
+		padding-left: 12em;
+	}
+	ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 1.5em;
+	}
+	ul li:hover a {
+		color: #FF0000;
+	}
+
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,0,0.00);
+	}
+
+	.title {
+		align-items: center;
+		color: rgba(255,255,255,1.00);
+	}
+}
+
+@media (max-width: 400px) {
+	
+	html {
+	font-family: "Armada Bold";
+	font-size: 16px;
+
+	}
+
+	body {
+		max-width: 100%;
+		background-color: rgba(0,0,0,1.00);
+	}
+
+	header {
+		max-width: 100%;
+	}
+
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		font-family: "Armada Bold";
+		padding-top: 1em;
+	}
+	header nav ul {
+		list-style: none;
+		align-items: center;
+	}
+
+	ul {
+	
+	}
+
+	nav ul li {
+		color: rgba(252,249,249,1.00);
+		display: inline-block;
+		margin-right: 1em;
+		float: left;
+		padding-left: 0.7em;
+	}
+	ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 1em;
+	}
+	ul li:hover a {
+		color: #FF0000;
+	}
+
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,0,0.00);
+	}
+
+	.title {
+		align-items: center;
+		color: rgba(255,255,255,1.00);
+	}
+
+}
+@media (max-width: 1375px) {
+	
+	html {
+	font-family: "Armada Bold";
+	font-size: 16px;
+	}
+
+	body {
+		max-width: 100%;
+		background-color: rgba(0,0,0,1.00);
+	}
+
+	header {
+		max-width: 100%;
+	}
+
+	h1 {
+		font-size: 3em;
+		text-align: center;
+	}
+
+	nav {
+		width: 100%;
+		text-align: center;
+		font-family: "Armada Bold";
+		padding-top: 1em;
+	}
+	
+	header nav ul {
+		list-style: none;
+		align-items: center;
+	}
+
+	ul {
+		
+	}
+
+	nav ul li {
+		color: rgba(252,249,249,1.00);
+		display: inline-block;
+		margin-right: 1em;
+		float: left;
+		padding-left: 9.5em;
+	}
+	
+	ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	ul li:hover a {
+		color: #FF0000;
+	}
+
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,0,0.00);
+	}
+
+	.title {
+		align-items: center;
+		color: rgba(255,255,255,1.00);
+	}
+
+}
