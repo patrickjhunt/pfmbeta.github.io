@@ -1,5 +1,7 @@
 @charset "utf-8";
+
 /* CSS Document */
+
 @font-face {
 	font-family: "armada", sans-serif;
 	font-weight: 700;
@@ -81,7 +83,7 @@ body {
 	.about {
 		width: 100%;
 		background-color: rgba(0,0,0,1.00);
-		margin-top: 2em;
+		margin-top: 1em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 
@@ -100,7 +102,7 @@ body {
 	}
 
 	h1 {
-		font-size: 4.5em;
+		font-size: 5em;
 	}
 
 	nav {
@@ -117,8 +119,8 @@ body {
 	ul li {
 		color: rgba(255,255,255,1.00);
 		margin-right: 4em;
-		margin-left: 4em;
-		padding-left: 1.3em;
+		margin-left: 3.7em;
+		padding-left: 1.2em;
 		float: left;
 		
 	}
@@ -126,7 +128,7 @@ body {
 	ul li a {
 		color: #FFFFFF;
 		text-decoration: none;
-		font-size: 1.7em;
+		font-size: 2em;
 	}
 	ul li:hover a {
 		color: #FF0000;
@@ -148,7 +150,7 @@ body {
 		width: 100%;
 		height: auto;
 		background-color: rgba(0,0,0,1.00);
-		margin-top: 4em;
+		margin-top: 7em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 	}
@@ -218,5 +220,4 @@ body {
 		text-align: center;
 	}
 }
-	
 

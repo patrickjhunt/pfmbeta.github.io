@@ -81,14 +81,80 @@ body {
 	.about {
 		width: 100%;
 		background-color: rgba(0,0,0,1.00);
-		margin-top: 2em;
+		margin-top: 1em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 
 	}
 }
 
-@media (min-width: 501px) {
+@media (min-width: 501px) and (max-width: 2000px) {
+	header {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+    	justify-content: center;
+    	height: auto;
+    	margin: 0;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 5em;
+	}
+
+	nav {
+		width: 100%;
+	}
+	
+	ul {
+		display: inline-block; /* Arrange list items in a row */
+      	list-style: none; /* Remove default bullet points */
+      	padding: 0;
+      	margin: 0;
+	}
+
+	ul li {
+		color: rgba(255,255,255,1.00);
+		margin-right: 4em;
+		margin-left: 3.7em;
+		padding-left: 1.2em;
+		float: left;
+		
+	}
+	
+	ul li a {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 1.7em;
+	}
+	ul li:hover a {
+		color: #FF0000;
+	}
+	
+	p {
+		
+	}
+
+	.title {
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+	
+	.hotbar {
+		text-align: center;
+	}
+	.about {
+		width: 100%;
+		height: auto;
+		background-color: rgba(0,0,0,1.00);
+		margin-top: 7em;
+		color: rgba(255,255,255,1.00);
+		text-align: center;
+	}
+}
+
+@media (min-width: 2001px) {
 	header {
 		max-width: 100%;
 		display: flex;
