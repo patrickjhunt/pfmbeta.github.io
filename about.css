@@ -30,20 +30,7 @@ body {
 header {
 	text-align: center;
 }
-header .profileLogo .logoPlaceholder {
-	background-color: rgba(0,0,0,1.00);
-	width: 100%;
-	text-align: center;
-}
-header .logoPlaceholder span {
-	width: 100%;
-	height: auto;
-	font-family: "armada";
-	color: rgba(255,255,255,1.00);
-	font-size: 1em;
-	font-weight: 700;
-	line-height: 1em;
-}
+
 .profilePhoto {
 	background-color: rgba(237,237,237,1.00);
 	width: 25vw;
@@ -51,38 +38,18 @@ header .logoPlaceholder span {
 	height: 25vw;
 	object-fit: cover;
 }
-header .profileHeader h1 {
-	font-family: "armada";
-	color: rgba(255,255,255,1.00);
-	font-size: 1.5em;
-	font-weight: 700;
-	line-height: 1em;
-	text-align: left;
-}
-header .profileHeader h3 {
-	font-family: "armada";
-	color: rgba(255,255,255,1.00);
-	font-size: 1em;
-	font-weight: 700;
-	line-height: 0.1em;
-	text-align: left;
-}
+
 hr {
 	background-color: rgba(255,255,255,1.00);
-	height: 1px;
-}
-header .profileHeader p {
-	font-family: "armada";
-	color: rgba(255,255,255,1.00);
-	font-size: 0.8em;
-	font-weight: 400;
-	line-height: 1.8;
-	overflow-y: auto;
+	height: 2px;
+	width: 100%
 }
 
 img {
-	max-width: 70%;
-	padding-top: 1.8em;
+	max-width: 25vw;
+	border-radius: 50%;
+	max-height: auto;
+	object-fit: cover;
 }
 
 .profile {
@@ -90,10 +57,19 @@ img {
 	gap: 1em;
 }
 
-.description {
-	color: rgba(255,255,255,1.00);
-	font-size: 0.75em;
+.profileHeader {
+	background-color: rgba(0,0,0,1.00);
+	text-align: center;
+	height: 50%;
+	padding-left: 1em;
+	padding-right: 1em;
 }
+
+.line {
+	width: 100%;
+	background-color: rgba(255,255,255,0.00);
+}
+
 @media (max-width: 500px) {
 	header {
 		max-width: 100%;
@@ -136,7 +112,25 @@ img {
 	ul li:hover a {
 		color: #FF0000;
 	}
-
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.5em;
+		font-weight: 700;
+		line-height: 1em;
+		text-align: left;
+	}
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1em;
+		font-weight: 700;
+		line-height: 0.1em;
+		text-align: left;
+	}
+	header hr {
+		width: 80%;
+	}
 	.title {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
@@ -153,6 +147,10 @@ img {
 		text-align: center;
 
 	}
+	.description {
+	color: rgba(255,255,255,1.00);
+	font-size: 0.75em;
+	}
 }
 
 @media (min-width: 501px) and (max-width: 2000px) {
@@ -163,7 +161,7 @@ img {
     	justify-content: center;
     	height: auto;
     	margin: 0;
-		text-align: center;
+		text-align: center
 	}
 
 	h1 {
@@ -200,10 +198,21 @@ img {
 		color: #FF0000;
 	}
 	
-	p {
-		
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 2.8em;
+		font-weight: 700;
+		text-align: left;
+		line-height: 10px;
 	}
-
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.4em;
+		font-weight: 700;
+		text-align: left;
+	}
 	.title {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
@@ -219,6 +228,12 @@ img {
 		margin-top: 7em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
+	}
+	.description {
+		color: rgba(255,255,255,1.00);
+		font-size: 1.1em;
+		background-color: rgba(0,0,0,1.00);
+		margin-top: 1em;
 	}
 }
 
@@ -284,6 +299,12 @@ img {
 		margin-top: 7em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
+	}
+	.description {
+		color: rgba(255,255,255,1.00);
+		font-size: 1.3em;
+		background-color: rgba(0,0,0,1.00);
+		margin-top: 1em;
 	}
 }
 
