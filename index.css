@@ -42,9 +42,10 @@ body {
 .mixlink {
 	width: 60%;
 	float: center;
+	padding-top: 5vh;
 }
 .ytlink {
-	padding-top: 10vh;
+	padding-top: 5vh;
 	width: 35%;
 }
 @media (max-width: 500px) {
