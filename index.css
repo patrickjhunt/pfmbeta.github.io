@@ -30,7 +30,19 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
+.subtitle {
+	color: rgba(255,255,255,1.00);
+	font-size: 5vw;
+}
+.poster {
+	width: 35%;
+	border: 1em solid rgba(255,255,255,1.00);
+	align-self: center;
+}
+.mixlink {
+	width: 60%;
+	float: center;
+}
 @media (max-width: 500px) {
 	header {
 		max-width: 100%;
@@ -155,6 +167,7 @@ body {
 		margin-top: 4em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
+		font-size: 1.15em;
 	}
 }
 
@@ -220,6 +233,7 @@ body {
 		margin-top: 7em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
+		font-size: 1.5em
 	}
 }
 	
