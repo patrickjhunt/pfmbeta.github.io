@@ -44,7 +44,7 @@ body {
 	float: center;
 }
 .ytlink {
-	padding-top: 5vh;
+	padding-top: 10vh;
 	width: 35%;
 }
 @media (max-width: 500px) {
