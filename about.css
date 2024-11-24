@@ -121,7 +121,7 @@ img {
 	header .profileHeader h2 {
 		font-family: "armada";
 		color: rgba(255,255,255,1.00);
-		font-size: 1.5em;
+		font-size: 1.2em;
 		font-weight: 700;
 		line-height: 1em;
 		text-align: left;
@@ -129,7 +129,7 @@ img {
 	header .profileHeader h3 {
 		font-family: "armada";
 		color: rgba(255,255,255,1.00);
-		font-size: 1em;
+		font-size: 0.8em;
 		font-weight: 700;
 		line-height: 0.1em;
 		text-align: left;
@@ -156,6 +156,15 @@ img {
 	.description {
 		color: rgba(255,255,255,1.00);
 		font-size: 0.75em;
+	}
+	.instagram {
+	height: 4em;
+	border-radius: 10%;
+	background-color: rgba(255,255,255,1.00);
+	}
+
+	.instagramLogo {
+		width: 15vw;
 	}
 }
 
