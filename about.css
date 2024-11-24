@@ -32,7 +32,7 @@ header {
 }
 
 .profilePhoto {
-	background-color: rgba(237,237,237,1.00);
+	background-color: rgba(255,255,255,1.00);
 	width: 25vw;
 	border-radius: 50%;
 	height: 25vw;
@@ -70,6 +70,11 @@ img {
 	background-color: rgba(255,255,255,0.00);
 }
 
+.footer {
+	text-align: center;
+	background-color: rgba(255,255,255,1.00)
+}
+
 @media (max-width: 500px) {
 	header {
 		max-width: 100%;
@@ -87,6 +92,7 @@ img {
 
 	nav {
 		width: 100%;
+		padding-bottom: 1em;
 	}
 	
 	ul {
@@ -148,8 +154,8 @@ img {
 
 	}
 	.description {
-	color: rgba(255,255,255,1.00);
-	font-size: 0.75em;
+		color: rgba(255,255,255,1.00);
+		font-size: 0.75em;
 	}
 }
 
@@ -171,6 +177,7 @@ img {
 
 	nav {
 		width: 100%;
+		padding-bottom: 2em;
 	}
 	
 	ul {
@@ -201,7 +208,7 @@ img {
 	header .profileHeader h2 {
 		font-family: "armada";
 		color: rgba(255,255,255,1.00);
-		font-size: 2.8em;
+		font-size: 2.4em;
 		font-weight: 700;
 		text-align: left;
 		line-height: 10px;
@@ -212,6 +219,9 @@ img {
 		font-size: 1.4em;
 		font-weight: 700;
 		text-align: left;
+	}
+	header hr {
+		width: 80%;
 	}
 	.title {
 		color: rgba(255,255,255,1.00);
@@ -254,6 +264,7 @@ img {
 
 	nav {
 		width: 100%;
+		padding-bottom: 2em;
 	}
 	
 	ul {
@@ -280,8 +291,23 @@ img {
 		color: #FF0000;
 	}
 	
-	p {
-		
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 3em;
+		font-weight: 700;
+		text-align: left;
+		line-height: 30px;
+	}
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.4em;
+		font-weight: 700;
+		text-align: left;
+	}
+	header hr {
+		width: 80%;
 	}
 
 	.title {
@@ -302,7 +328,7 @@ img {
 	}
 	.description {
 		color: rgba(255,255,255,1.00);
-		font-size: 1.3em;
+		font-size: 1.8em;
 		background-color: rgba(0,0,0,1.00);
 		margin-top: 1em;
 	}
