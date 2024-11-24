@@ -27,6 +27,73 @@ body {
 	flex-direction: column;
 }
 
+header {
+	text-align: center;
+}
+header .profileLogo .logoPlaceholder {
+	background-color: rgba(0,0,0,1.00);
+	width: 100%;
+	text-align: center;
+}
+header .logoPlaceholder span {
+	width: 100%;
+	height: auto;
+	font-family: "armada";
+	color: rgba(255,255,255,1.00);
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1em;
+}
+.profilePhoto {
+	background-color: rgba(237,237,237,1.00);
+	width: 25vw;
+	border-radius: 50%;
+	height: 25vw;
+	object-fit: cover;
+}
+header .profileHeader h1 {
+	font-family: "armada";
+	color: rgba(255,255,255,1.00);
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1em;
+	text-align: left;
+}
+header .profileHeader h3 {
+	font-family: "armada";
+	color: rgba(255,255,255,1.00);
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 0.1em;
+	text-align: left;
+}
+hr {
+	background-color: rgba(255,255,255,1.00);
+	height: 1px;
+}
+header .profileHeader p {
+	font-family: "armada";
+	color: rgba(255,255,255,1.00);
+	font-size: 0.8em;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+
+img {
+	max-width: 70%;
+	padding-top: 1.8em;
+}
+
+.profile {
+	display: flex;
+	gap: 1em;
+}
+
+.description {
+	color: rgba(255,255,255,1.00);
+	font-size: 0.75em;
+}
 @media (max-width: 500px) {
 	header {
 		max-width: 100%;
@@ -100,7 +167,8 @@ body {
 	}
 
 	h1 {
-		font-size: 5em;
+		font-size: 4em;
+		padding-left: 0.35em;
 	}
 
 	nav {
