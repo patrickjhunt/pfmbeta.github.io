@@ -170,9 +170,9 @@ img {
 	}
 	
 	.socials {
-		background-color: rgba(255,255,255,1.00);
 		font-size: 1em;
 		text-align: center;
+		color: rgba(255,255,255,1.00);
 	}
 }
 
@@ -263,9 +263,9 @@ img {
 		margin-top: 1em;
 	}
 	.socials {
-		background-color: rgba(255,255,255,1.00);
 		font-size: 1.3em;
 		text-align: center;
+		color: rgba(255,255,255,1.00);
 	}
 }
 
@@ -358,7 +358,7 @@ img {
 		margin-top: 1em;
 	}
 	.socials {
-		background-color: rgba(255,255,255,1.00);
+		color: rgba(255,255,255,1.00);
 		font-size: 2em;
 		text-align: center;
 	}
