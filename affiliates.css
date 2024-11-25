@@ -20,6 +20,16 @@ body {
 	background-image: url("pfmbackground2.png");
 }
 
+img {
+	max-width: 25vw;
+	border-radius: 50%;
+	max-height: auto;
+	object-fit: cover;
+}
+
+hr {
+	width: 100%;
+}
 .container {
 	width: 100%;
 	margin-left: auto;
@@ -32,6 +42,25 @@ body {
 .socials {
 	background-color: rgba(255,255,255,1.00);
 	margin-top: 10vh;
+}
+
+.line {
+	width: 100%;
+	background-color: rgba(255,255,255,0.00);
+	padding-top: 2vh;
+}
+
+.profilePhoto {
+	background-color: rgba(255,255,255,1.00);
+	width: 25vw;
+	border-radius: 50%;
+	height: 25vw;
+	object-fit: cover;
+}
+
+.profile {
+	display: flex;
+	gap: 1em;
 }
 
 @media (max-width: 500px) {
@@ -92,6 +121,38 @@ body {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 
+	}
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.0em;
+		font-weight: 700;
+		line-height: 1em;
+		text-align: left;
+	}
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 0.8em;
+		font-weight: 700;
+		line-height: 0.1em;
+		text-align: left;
+	}
+	header hr {
+		width: 80%;
+	}
+	.description {
+		color: rgba(255,255,255,1.00);
+		font-size: 0.75em;
+	}
+	.instagram {
+	height: 4em;
+	border-radius: 10%;
+	background-color: rgba(255,255,255,0.00);
+	}
+
+	.instagramLogo {
+		width: 15vw;
 	}
 }
 
