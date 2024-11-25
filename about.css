@@ -168,6 +168,12 @@ img {
 	.instagramLogo {
 		width: 15vw;
 	}
+	
+	.socials {
+		background-color: rgba(255,255,255,1.00);
+		font-size: 1em;
+		text-align: center;
+	}
 }
 
 @media (min-width: 501px) and (max-width: 2000px) {
@@ -255,6 +261,11 @@ img {
 		font-size: 1.1em;
 		background-color: rgba(0,0,0,1.00);
 		margin-top: 1em;
+	}
+	.socials {
+		background-color: rgba(255,255,255,1.00);
+		font-size: 1.3em;
+		text-align: center;
 	}
 }
 
@@ -345,6 +356,11 @@ img {
 		font-size: 1.8em;
 		background-color: rgba(0,0,0,1.00);
 		margin-top: 1em;
+	}
+	.socials {
+		background-color: rgba(255,255,255,1.00);
+		font-size: 2em;
+		text-align: center;
 	}
 }
 
