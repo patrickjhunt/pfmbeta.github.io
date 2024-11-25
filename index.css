@@ -15,7 +15,7 @@ body {
 	min-height: 100vh;
 	background-color: rgba(0,0,0,1.00);
 	overflow-x: hidden;
-	background-image: url("pfmbackground1.png");
+	background-image: url("pfmbackground2.png");
 }
 
 .footer {
@@ -40,9 +40,8 @@ body {
 	align-self: center;
 }
 .mixlink {
-	width: 60%;
 	float: center;
-	padding-top: 5vh;
+	padding-top: 3vh;
 }
 .ytlink {
 	padding-top: 5vh;
