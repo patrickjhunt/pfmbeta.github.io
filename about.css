@@ -63,7 +63,8 @@ img {
 	height: 50%;
 	padding-left: 1em;
 	padding-right: 1em;
-	border-radius: 15%;
+	border-radius: 25%;
+	padding-bottom: 0.7em;
 }
 
 .line {
