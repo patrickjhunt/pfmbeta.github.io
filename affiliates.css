@@ -220,6 +220,30 @@ hr {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 	}
+	.description {
+		color: rgba(255,255,255,1.00);
+		font-size: 1.1em;
+		background-color: rgba(0,0,0,1.00);
+		margin-top: 1em;
+	}
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 2.4em;
+		font-weight: 700;
+		text-align: left;
+		line-height: 10px;
+	}
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.4em;
+		font-weight: 700;
+		text-align: left;
+	}
+	header hr {
+		width: 80%;
+	}
 }
 
 @media (min-width: 2001px) {
@@ -268,6 +292,24 @@ hr {
 	p {
 		
 	}
+	header .profileHeader h2 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 3em;
+		font-weight: 700;
+		text-align: left;
+		line-height: 30px;
+	}
+	header .profileHeader h3 {
+		font-family: "armada";
+		color: rgba(255,255,255,1.00);
+		font-size: 1.4em;
+		font-weight: 700;
+		text-align: left;
+	}
+	header hr {
+		width: 80%;
+	}
 
 	.title {
 		color: rgba(255,255,255,1.00);
@@ -284,6 +326,12 @@ hr {
 		margin-top: 7em;
 		color: rgba(255,255,255,1.00);
 		text-align: center;
+	}
+	.description {
+		color: rgba(255,255,255,1.00);
+		font-size: 1.8em;
+		background-color: rgba(0,0,0,1.00);
+		margin-top: 1em;
 	}
 }
 
