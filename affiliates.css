@@ -63,6 +63,65 @@ hr {
 	background-color: rgba(255,255,255,1.00)
 }
 
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(255,255,255,0.00);
+    color: white;
+}
+
+.hamburger span {
+    display: block;
+    height: 0.4vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 50px; /* Position it below the hamburger menu */
+    right: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40vw; /* Optional: Set a fixed width for the menu */
+    text-align: left; /* Align links to the left */
+}
+
+.nav-links li {
+    margin: 0;
+    width: 100%; /* Make each item span the full width */
+}
+
+.nav-links li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+}
+
+.nav-links li:last-child a {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.menuTitle {
+	color: rgba(255,255,255,1.00);
+	text-align: right;
+	padding-right: 1vw;
+	font-size: 1.8em;
+}
+
 @media (max-width: 500px) {
 	header {
 		max-width: 100%;
@@ -78,42 +137,11 @@ hr {
 		font-size: 2.5em;
 	}
 
-	nav {
-		width: 100%;
-	}
-	
-	ul {
-		display: inline-block; /* Arrange list items in a row */
-      	list-style: none; /* Remove default bullet points */
-      	padding: 0;
-      	margin: 0;
-	}
-
-	ul li {
-		color: rgba(255,255,255,1.00);
-		margin-right: 1em;
-		margin-left: 1.6em;
-		float: left;
-		
-	}
-	
-	ul li a {
-		color: #FFFFFF;
-		text-decoration: none;
-		font-size: 0.9em;
-	}
-	ul li:hover a {
-		color: #FF0000;
-	}
-
 	.title {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 	}
-	
-	.hotbar {
-		text-align: center;
-	}
+
 	.about {
 		width: 100%;
 		background-color: rgba(0,0,0,1.00);
@@ -159,6 +187,16 @@ hr {
 		text-align: center;
 		color: rgba(255,255,255,1.00);
 	}
+	.hamburger {
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 4vh;
+		width: 8vw;
+		padding-right: 3.5vw;
+		padding-top: 0.5em;
+	}
 }
 
 @media (min-width: 501px) and (max-width: 2000px) {
@@ -176,47 +214,11 @@ hr {
 		font-size: 4em;
 	}
 
-	nav {
-		width: 100%;
-	}
-	
-	ul {
-		display: inline-block; /* Arrange list items in a row */
-      	list-style: none; /* Remove default bullet points */
-      	padding: 0;
-      	margin: 0;
-	}
-
-	ul li {
-		color: rgba(255,255,255,1.00);
-		margin-right: 4em;
-		margin-left: 3.7em;
-		padding-left: 1.2em;
-		float: left;
-		
-	}
-	
-	ul li a {
-		color: #FFFFFF;
-		text-decoration: none;
-		font-size: 1.8em;
-	}
-	ul li:hover a {
-		color: #FF0000;
-	}
-	
-	p {
-		
-	}
-
 	.title {
 		color: rgba(255,255,255,1.00);
 		text-align: center;
 	}
 	
-	.hotbar {
-		text-align: center;
-	}
 	.about {
 		width: 100%;
 		height: auto;
@@ -253,6 +255,16 @@ hr {
 		font-size: 1.3em;
 		text-align: center;
 		color: rgba(255,255,255,1.00);
+	}
+	.hamburger {
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 4vh;
+		width: 2em;
+		padding-right: 1.2em;
+		padding-top: 0.5em;
 	}
 }
 
@@ -326,9 +338,6 @@ hr {
 		text-align: center;
 	}
 	
-	.hotbar {
-		text-align: center;
-	}
 	.about {
 		width: 100%;
 		height: auto;
@@ -347,6 +356,34 @@ hr {
 		color: rgba(255,255,255,1.00);
 		font-size: 2em;
 		text-align: center;
+	}
+	.nav-links {
+        display: flex; /* Display links horizontally */
+        position: static; /* Remove absolute positioning for a regular layout */
+        flex-direction: row; /* Ensure links are in a row */
+        background-color: transparent; /* Remove background for inline links */
+        box-shadow: none; /* Remove shadow */
+        width: auto; /* Let the width adjust automatically */
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 0 10px; /* Add spacing between items */
+    }
+
+    .nav-links li a {
+        color: white;
+        text-decoration: none;
+        border-bottom: none; /* Remove borders for inline links */
+		padding-right: 1.2em;
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger icon on larger screens */
+    }
+	
+	.menuTitle {
+		display: none;
 	}
 }
 
