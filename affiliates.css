@@ -186,6 +186,7 @@ hr {
 		font-size: 1em;
 		text-align: center;
 		color: rgba(255,255,255,1.00);
+		background-color: rgba(0,0,0,1.00);
 	}
 	.hamburger {
 		cursor: pointer;
@@ -255,6 +256,7 @@ hr {
 		font-size: 1.3em;
 		text-align: center;
 		color: rgba(255,255,255,1.00);
+		background-color: rgba(0,0,0,1.00);
 	}
 	.hamburger {
 		cursor: pointer;
@@ -356,6 +358,7 @@ hr {
 		color: rgba(255,255,255,1.00);
 		font-size: 2em;
 		text-align: center;
+		background-color: rgba(0,0,0,1.00);
 	}
 	.nav-links {
         display: flex; /* Display links horizontally */
