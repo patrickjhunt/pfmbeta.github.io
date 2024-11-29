@@ -44,7 +44,7 @@ body {
     background-color: #444;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 50vw; /* Optional: Set a fixed width for the menu */
+    width: 60vw; /* Optional: Set a fixed width for the menu */
     text-align: left; /* Align links to the left */
 }
 
